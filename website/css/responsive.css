@@ -1,0 +1,73 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) { 
+	.container {
+	    max-width: 1075px;
+	}
+}
+
+@media (max-width: 1199px) { 
+	
+	.container {
+	    max-width: 100%;
+	    padding-right: 75px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	
+	.container {
+	    max-width: 100%;
+	    padding-right: 0;
+	}
+
+	.sidebar {
+	    width: 100%;
+	    height: 60px;
+	    display: flex;
+	    flex-direction: unset;
+	    justify-content: space-between;
+	}
+
+	.hamburger_menu {
+	    right: 15px;
+	    top: 15px;
+	}
+
+	.social_icon {
+	    display: flex;
+	    margin-left: 10px;
+	}
+
+	.social_icon a {
+	    margin: 0px 5px;
+	}
+
+	header {
+		display: none;
+	}
+
+	.home_wrapper {
+		overflow: hidden;
+	}
+
+}
+
+
